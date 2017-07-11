@@ -1,0 +1,48 @@
+@import "susy";
+
+$susy: (global-box-sizing: border-box, use-custom: (rem: true));
+
+@include border-box-sizing;
+
+// Configuring Susy defaults
+$total-columns: 10;
+$column-width: 100px;
+$gutter-width: 50px;
+$grid-padding: $gutter-width / 2;
+
+$container-style: magic; // default to magic. Switch to fluid or fixed if desired
+
+.container {
+  @include container;
+  background: $secondary-color;
+}
+
+header {
+  width: span(10 of 10);
+  background: $primery-color;
+}
+
+footer {
+  width: span(10 of 10);
+  background: $primery-color;
+}
+
+.ag1 {
+  @include span(7 wide of 10);
+  background: $support-color;
+}
+
+.ag2 {
+  @include span(3 wide of 10 last);
+  background: $support-color;
+}
+
+
+@include susy-breakpoint(500px, 8) {
+  .ag1 {
+    width: span(10 of 10);
+  }
+  .ag2 {
+    @include span(10 wide of 10 last);
+  }
+}

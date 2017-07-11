@@ -1,3 +1,62 @@
+/* line 21, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+/* line 15, ../sass/partials/_grids.scss */
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #222;
+}
+/* line 12, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 
-/*# sourceMappingURL=main.css.map */
+/* line 20, ../sass/partials/_grids.scss */
+header {
+  width: 100%;
+  background: #ddd;
+}
+
+/* line 25, ../sass/partials/_grids.scss */
+footer {
+  width: 100%;
+  background: #ddd;
+}
+
+/* line 30, ../sass/partials/_grids.scss */
+.ag1 {
+  width: 71.42857%;
+  float: left;
+  margin-right: 2%;
+  background: #eee;
+}
+
+/* line 35, ../sass/partials/_grids.scss */
+.ag2 {
+  width: 30.61224%;
+  float: right;
+  margin-right: 0;
+  background: #eee;
+}
+
+@media (min-width: 500px) {
+  /* line 42, ../sass/partials/_grids.scss */
+  .ag1 {
+    width: 100%;
+  }
+
+  /* line 45, ../sass/partials/_grids.scss */
+  .ag2 {
+    width: 102.04082%;
+    float: right;
+    margin-right: 0;
+  }
+}
