@@ -28,21 +28,21 @@ footer {
 }
 
 .ag1 {
-  @include span(7 wide of 10);
+  @include span(7 of 10);
   background: $support-color;
 }
 
 .ag2 {
-  @include span(3 wide of 10 last);
+  @include span(3 of 10 last);
   background: $support-color;
 }
 
 
-@include susy-breakpoint(500px, 8) {
+@include susy-breakpoint(0 500px) {
   .ag1 {
     width: span(10 of 10);
   }
   .ag2 {
-    @include span(10 wide of 10 last);
+    width: span(10 of 10);
   }
 }
