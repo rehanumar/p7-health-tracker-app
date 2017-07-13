@@ -475,7 +475,22 @@ template {
   display: none;
 }
 
-/* line 21, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+/* line 1, ../sass/partials/_typography.scss */
+* {
+  font: 20px JosefinSans, 'sans-serif';
+}
+
+/* line 5, ../sass/partials/_typography.scss */
+.logo {
+  display: inline-block;
+}
+
+/* line 9, ../sass/partials/_typography.scss */
+header, footer {
+  color: #fff;
+}
+
+/* line 21, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -487,33 +502,33 @@ template {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #222;
 }
-/* line 12, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 .container:after {
   content: " ";
   display: block;
   clear: both;
 }
 
-/* line 20, ../sass/partials/_grids.scss */
+/* line 19, ../sass/partials/_grids.scss */
 header {
   width: 100%;
-  background: #ddd;
+  background: #2ecc71;
 }
 
-/* line 25, ../sass/partials/_grids.scss */
+/* line 24, ../sass/partials/_grids.scss */
 footer {
   width: 100%;
-  background: #ddd;
+  background: #2ecc71;
 }
 
-/* line 30, ../sass/partials/_grids.scss */
+/* line 29, ../sass/partials/_grids.scss */
 .ag1 {
   width: 69.38776%;
   float: left;
   margin-right: 2.04082%;
-  background: #eee;
+  background: #ecf0f1;
+  border: 2px solid #95a5a6;
 }
 
 /* line 35, ../sass/partials/_grids.scss */
@@ -521,16 +536,17 @@ footer {
   width: 28.57143%;
   float: right;
   margin-right: 0;
-  background: #eee;
+  background: #ecf0f1;
+  border: 2px solid #95a5a6;
 }
 
 @media (min-width: 0) and (max-width: 500px) {
-  /* line 42, ../sass/partials/_grids.scss */
+  /* line 43, ../sass/partials/_grids.scss */
   .ag1 {
     width: 100%;
   }
 
-  /* line 45, ../sass/partials/_grids.scss */
+  /* line 46, ../sass/partials/_grids.scss */
   .ag2 {
     width: 100%;
   }
